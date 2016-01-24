@@ -33,13 +33,13 @@ The application has only one controller and the magic is:
 yes, it's exactly like Spring MVC :)
 
 The html has:
-
+```html
 <tr th:each="message : ${messages}">
 			    <td th:text="${message.id}"></td>
 			    <td th:text="${message.title}"></td>
 			    <td th:text="${message.text}"></td>
 </tr>    
-
+```
 If you have any cuestion send and email facundoferro@gmail.com
 
 
